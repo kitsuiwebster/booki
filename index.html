@@ -1,19 +1,54 @@
 
 <!doctype html>
 <html>
-  <head>
-    <img src="./assets/logo/Booki.png" alt="Logo Booki" class="logo">
+
+  <head> 
+    <!-- kits font awesome -->
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <!-- raleway google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
-  <!-- kits font awesome -->
-  <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
-  <!-- raleway google font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./css/fonts.css">
+
 
   <body>
-    Yes
-    <i class="fa-solid fa-thumbs-up fa-5x"></i>
+    <header>
+      <div class="logo-box">
+      <img src="./assets/logo/Booki.png" alt="Logo Booki" class="logo">
+      </div>
+      <nav class="menu">
+        <ul >
+          <li id="menu_title1"><a href="#">Hébergements</a></li>
+          <li id="menu_title2"><a href="#">Activités</a></li>
+        </ul>
+      </nav>
+
+    <!-- <i class="fa-solid fa-thumbs-up fa-5x"></i> -->
+    </header>
+    
+    <main>
+
+      <h1 id="search-box-title">
+        Trouvez votre Hébergement pour vos vacances de rêve
+      </h1>
+      <p id="search-box-comment">
+        En plein centre-ville ou en pleine nature
+      </p>
+      <nav id="search-box">
+        <div class="square">
+          <img src="location-logo.png">
+        </div>
+        <div class="rectangle">
+          <input type="text" placeholder="Search...">
+        </div>
+        <button class="search-button">Rechercher</button>
+      </nav>
+    </main>
+
+    
+    
   </body>
 </html>

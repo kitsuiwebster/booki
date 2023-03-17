@@ -95,3 +95,24 @@ p {
   display: flex;
   margin-left: 20px;
 }
+
+#accommodations {
+
+  display: flex;
+}
+
+.accommodations_at_marseille {
+  display: flex;
+}
+
+.the_most_popular_accommodations {
+  display: flex;
+}
+
+.activities_at_marseille {
+  display: flex;
+}
+
+.footer_menu_blocks {
+  display: flex;
+}

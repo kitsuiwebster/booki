@@ -1,5 +1,5 @@
 * {
-  font-family: 'Raleway';
+  font-family: "Raleway";
 }
 
 header {
@@ -12,10 +12,7 @@ header {
 }
 
 .logo-box {
-  width: 2.9px;
-  height: 6.11px;
-  left: 35.54px;
-  top: 8.56px;
+  display: flex;
 }
 
 .logo {
@@ -23,8 +20,8 @@ header {
   height: 19px;
   left: 0px;
   top: 0px;
-  
-  background: #ffffff;  
+
+  background: #ffffff;
 }
 
 .menu {
@@ -52,19 +49,27 @@ nav a {
 }
 
 nav a:hover {
-  color: #0065FC;
-
-} 
+  color: #0065fc;
+}
 
 #menu_title1 {
   margin-left: 50px;
 }
 
-
 /* MAIN */
 h1 {
   margin-left: 20px;
   font-size: 22px;
+}
+
+h2 {
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+h3 {
+  margin-left: 20px;
+  font-size: 14px;
 }
 
 p {
@@ -76,20 +81,44 @@ p {
   margin-left: 20px;
 }
 
+#search-pin {
+  padding: 15px;
+  background-color: #d6d6d6;
+  border-radius: 15px 0px 0px 15px;
+}
+
 #search-button {
-  background: #0065FC;
+  background: #0065fc;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 15px;
   color: white;
-  border: 1px solid #0065FC;
+  border: 1px solid #0065fc;
   border-radius: 0px 15px 15px 0px;
+}
+
+#search-input {
+  border: 1px solid #d6d6d6;
+  font-size: 15px;
 }
 
 #filters {
   display: flex;
+  justify-content: flex-start;
+  /* justify-content: flex-start; */
+  align-items: center;
+  margin: 2rem 0rem 2rem 0rem;
 }
 
-/* #filtering-button {
-  
-} */
+.filtering-button {
+  padding: 1rem 1.6rem 1rem 1.2rem;
+  border-radius: 40px;
+  background-color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  border: 2px solid #d6d6d6;
+  margin: 0rem 3rem 0rem 3rem;
+}
 
 #available-accommodations {
   display: flex;
@@ -97,16 +126,21 @@ p {
 }
 
 #accommodations {
-
   display: flex;
+  justify-content: space-around;
 }
 
-.accommodations_at_marseille {
-  display: flex;
+.accommodations_list {
+  background-color: #d6d6d6;
+  border-radius: 20px;
 }
 
-.the_most_popular_accommodations {
+.card {
   display: flex;
+  border-radius: 20px;
+  border: 4px solid #ffffff;
+  background-color: #ffffff;
+  box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.2);
 }
 
 .activities_at_marseille {

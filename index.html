@@ -1,371 +1,252 @@
-
-<!doctype html>
+<!DOCTYPE html>
 <html>
-
-  <head> 
+  <head>
     <!-- kits font awesome -->
-    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+    />
     <!-- raleway google font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
 
-
+  <!-- logo  -->
   <body>
     <header>
-
       <div class="logo-box">
-      <img src="./assets/logo/Booki.png" alt="Logo Booki" class="logo">
+        <img src="./assets/logo/Booki.png" alt="Logo Booki" class="logo" />
       </div>
 
+      <!-- top right menu  -->
       <nav class="menu">
-        <ul >
+        <ul>
           <li id="menu_title1"><a href="#">Hébergements</a></li>
           <li id="menu_title2"><a href="#">Activités</a></li>
         </ul>
       </nav>
 
-    <!-- <i class="fa-solid fa-thumbs-up fa-5x"></i> -->
+      <!-- <i class="fa-solid fa-thumbs-u p fa-5x"></i> -->
     </header>
-    
+
     <main>
+      <h1>Trouvez votre Hébergement pour vos vacances de rêve</h1>
+      <p>En plein centre-ville ou en pleine nature</p>
 
-      <h1>
-        Trouvez votre Hébergement pour vos vacances de rêve
-      </h1>
-      <p>
-        En plein centre-ville ou en pleine nature
-      </p>
-
+      <!-- search box -->
       <nav id="search-box">
-
-        <div>
-          <img src="location-logo.png">
+        <div id="search-pin">
+          <i class="fa-solid fa-location-dot"></i>
         </div>
-        <div>
-          <input type="text" placeholder="Marseille, France">
-        </div>
+        <input id="search-input" type="text" placeholder="Marseille, France" />
         <button id="search-button">Rechercher</button>
-
       </nav>
 
+      <!-- search filter  -->
       <nav id="filters">
-
-        <h1>
-          Filtres
-        </h1>
+        <h2>Filtres</h2>
 
         <button class="filtering-button">
           <div>
-            <img src="money-logo.png">
+            <i class="fa-regular fa-money-bill-wave"></i>
           </div>
-          <div>
-            Économique
-          </div>
+          <div>Économique</div>
         </button>
 
         <button class="filtering-button">
           <div>
-            <img src="human-logo.png">
+            <i></i>
           </div>
-          <div>
-            Familial
-          </div>
+          <div>Familial</div>
         </button>
 
         <button class="filtering-button">
           <div>
-            <img src="heart-logo.png">
+            <i></i>
           </div>
-          <div>
-              Romantique
-          </div>
+          <div>Romantique</div>
         </button>
 
         <button class="filtering-button">
           <div>
-            <img src="dog-logo.png">
+            <i></i>
           </div>
-          <div>
-            Animaux autorisés
-          </div>
+          <div>Animaux autorisés</div>
         </button>
-
       </nav>
 
+      <!-- 500 accommodations -->
       <div id="available-accommodations">
         <div>
-          <img src="information-logo.png">
+          <img src="information-logo.png" />
         </div>
         <data value="500">
-           Plus de 500 logements sont disponibles dans cette ville
+          Plus de 500 logements sont disponibles dans cette ville
         </data>
       </div>
 
+      <!-- accommodations  -->
       <section id="accommodations">
+        <div class="accommodations_list">
+          <h2>Hébergements à Marseille</h2>
+          <div>
+            <article class="card">
+              <div>
+                <img src="" />
+              </div>
+              <h3>Auberge La Canebière</h3>
+              <p>Nuit à partir de 25€</p>
+              <div></div>
+            </article>
 
-        <span>
+            <article class="card">
+              <div>
+                <img src="" />
+              </div>
+              <h3>Hôtel du port</h3>
+              <p>Nuit à partir de 52€</p>
+              <div></div>
+            </article>
 
-        <h1>
-          Hébergements à Marseille
-        </h1>
+            <article class="card">
+              <div>
+                <img src="" />
+              </div>
+              <h3>Hôtel les mouettes</h3>
+              <p>Nuit à partir de 76€</p>
+              <div></div>
+            </article>
 
-        <div>
+            <article class="card">
+              <div>
+                <img src="" />
+              </div>
+              <h3>Hôtel de la mer</h3>
+              <p>Nuit à partir de 46€</p>
+              <div></div>
+            </article>
 
-          <article class="accommodations_at_marseille">
-            <div>
-              <img src="">
-            </div>
-            <h1>
-              Auberge La Canebière
-            </h1>
-            <p>
-              Nuit à partir de 25€
-            </p>
-            <div>
+            <article class="card">
+              <div>
+                <img src="" />
+              </div>
+              <h3>Auberge Le Panier</h3>
+              <p>Nuit à partir de 23€</p>
+              <div></div>
+            </article>
 
-            </div>
-          </article>
+            <article class="card">
+              <div>
+                <img src="" />
+              </div>
+              <h3>Hôtel chez Amina</h3>
+              <p>Nuit à partir de 96€</p>
+              <div></div>
+            </article>
+          </div>
 
-          <article class="accommodations_at_marseille">
-            <div>
-              <img src="">
-            </div>
-            <h1>
-              Hôtel du port
-            </h1>
-            <p>
-              Nuit à partir de 52€
-            </p>
-            <div>
-
-            </div>
-          </article>
-
-          <article class="accommodations_at_marseille">
-            <div>
-              <img src="">
-            </div>
-            <h1>
-              Hôtel les mouettes
-            </h1>
-            <p>
-              Nuit à partir de 76€
-            </p>
-            <div>
-
-            </div>
-          </article>
-
-          <article class="accommodations_at_marseille">
-            <div>
-              <img src="">
-            </div>
-            <h1>
-              Hôtel de la mer
-            </h1>
-            <p>
-              Nuit à partir de 46€
-            </p>
-            <div>
-
-            </div>
-          </article>
-
-          <article class="accommodations_at_marseille">
-            <div>
-              <img src="">
-            </div>
-            <h1>
-              Auberge Le Panier
-            </h1>
-            <p>
-              Nuit à partir de 23€
-            </p>
-            <div>
-
-            </div>
-          </article>
-
-          <article class="accommodations_at_marseille">
-            <div>
-              <img src="">
-            </div>
-            <h1>
-              Hôtel chez Amina
-            </h1>
-            <p>
-              Nuit à partir de 96€
-            </p>
-            <div>
-
-            </div>
-          </article>
-
+          <p>Afficher plus</p>
         </div>
 
-        <div>
-          Afficher plus
-        </div>
-
-        </span>
-
-        <span>
-
-          <h1>
-            Les plus populaires
-          </h1>
+        <!-- the most popular accommodations -->
+        <div class="accommodations_list">
+          <h2>Les plus populaires</h2>
 
           <div>
+            <article class="card">
+              <div>
+                <img src="" />
+              </div>
+              <h3>Hôtel Le soleil du matin</h3>
+              <p>Nuit à partir de 126€</p>
+              <div></div>
+            </article>
 
-          <article class="the_most_popular_accommodations">
-            <div>
-              <img src="">
-            </div>
-            <h1>
-              Hôtel Le soleil du matin
-            </h1>
-            <p>
-              Nuit à partir de 126€
-            </p>
-            <div>
+            <article class="card">
+              <div>
+                <img src="" />
+              </div>
+              <h3>Chambres d'hôtes Au coeur de l'eau</h3>
+              <p>Nuit à partir de 71€</p>
+              <div></div>
+            </article>
 
-            </div>
-          </article>
-
-          <article class="the_most_popular_accommodations">
-            <div>
-              <img src="">
-            </div>
-            <h1>
-              Chambres d'hôtes Au coeur de l'eau
-            </h1>
-            <p>
-              Nuit à partir de 71€
-            </p>
-            <div>
-
-            </div>
-          </article>
-
-          <article class="the_most_popular_accommodations">
-            <div>
-              <img src="">
-            </div>
-            <h1>
-              Hôtel Bleu et Blanc
-            </h1>
-            <p>
-              Nuit à partir de 68€
-            </p>
-            <div>
-
-            </div>
-          </article>
-
+            <article class="card">
+              <div>
+                <img src="" />
+              </div>
+              <h3>Hôtel Bleu et Blanc</h3>
+              <p>Nuit à partir de 68€</p>
+              <div></div>
+            </article>
+          </div>
         </div>
-
-        </span>
-
       </section>
 
+      <!-- activities  -->
       <section>
+        <h1>Activités à Marseille</h1>
 
-        <h1>
-          Activités à Marseille
-        </h1>
-
-        <span>
-
-          <article class="activities_at_marseill">
+        <div>
+          <article class="activities_at_marseille">
             <div>
-              <img src="">
+              <img src="" />
             </div>
-            <h1>
-              Vieux-Port
-            </h1>
+            <h3>Vieux-Port</h3>
           </article>
 
-          <article class="activities_at_marseill">
+          <article class="activities_at_marseille">
             <div>
-              <img src="">
+              <img src="" />
             </div>
-            <h1>
-              Fort de Pomègues
-            </h1>
+            <h3>Fort de Pomègues</h3>
           </article>
 
-          <article class="activities_at_marseill">
+          <article class="activities_at_marseille">
             <div>
-              <img src="">
+              <img src="" />
             </div>
-            <h1>
-              Parc national des Calanques
-            </h1>
+            <h3>Parc national des Calanques</h3>
           </article>
 
-          <article class="activities_at_marseill">
+          <article class="activities_at_marseille">
             <div>
-              <img src="">
+              <img src="" />
             </div>
-            <h1>
-              Notre-Dame-de-la-Garde
-            </h1>
+            <h3>Notre-Dame-de-la-Garde</h3>
           </article>
-
-        </span>
-
+        </div>
       </section>
-
     </main>
 
+    <!-- footer  -->
     <footer>
       <nav>
-
         <article class="footer_menu_blocks">
-          <h1>
-            À propos
-          </h1>
-          <h2>
-            Fonctionnement du site
-          </h2>
-          <h2>
-            Conditions générales
-          </h2>
-          <h2>
-            Données et confidentialité
-          </h2>
+          <h3>À propos</h3>
+          <p>Fonctionnement du site</p>
+          <p>Conditions générales</p>
+          <p>Données et confidentialité</p>
         </article>
 
         <article class="footer_menu_blocks">
-          <h1>
-            Nos hébergements
-          </h1>
-          <h2>
-            Charte qualité
-          </h2>
-          <h2>
-            Proposer votre hôtel
-          </h2>
+          <h3>Nos hébergements</h3>
+          <p>Charte qualité</p>
+          <p>Proposer votre hôtel</p>
         </article>
 
         <article class="footer_menu_blocks">
-          <h1>
-            Assistance
-          </h1>
-          <h2>
-            Centre d'aide
-          </h2>
-          <h2>
-            Nous contacter
-          </h2>
+          <h3>Assistance</h3>
+          <p>Centre d'aide</p>
+          <p>Nous contacter</p>
         </article>
-
       </nav>
     </footer>
-    
   </body>
 </html>

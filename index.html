@@ -20,15 +20,15 @@
   <!-- logo  -->
   <body>
     <header>
-      <div class="logo-box">
+      <div class="logo_box">
         <img src="./assets/logo/Booki.png" alt="Logo Booki" class="logo" />
       </div>
 
       <!-- top right menu  -->
       <nav class="menu">
         <ul>
-          <li id="menu_title1"><a href="#">Hébergements</a></li>
-          <li id="menu_title2"><a href="#">Activités</a></li>
+          <li id="menu-title"><a href="#">Hébergements</a></li>
+          <li ><a href="#">Activités</a></li>
         </ul>
       </nav>
 
@@ -50,30 +50,30 @@
 
       <!-- search filter  -->
       <nav id="filters">
-        <h2>Filtres</h2>
+        <h2 id="filters-title">Filtres</h2>
 
-        <button class="filtering-button">
+        <button class="filtering_button">
           <div>
             <i class="fa-regular fa-money-bill-wave"></i>
           </div>
           <div>Économique</div>
         </button>
 
-        <button class="filtering-button">
+        <button class="filtering_button">
           <div>
             <i></i>
           </div>
           <div>Familial</div>
         </button>
 
-        <button class="filtering-button">
+        <button class="filtering_button">
           <div>
             <i></i>
           </div>
           <div>Romantique</div>
         </button>
 
-        <button class="filtering-button">
+        <button class="filtering_button">
           <div>
             <i></i>
           </div>
@@ -94,7 +94,7 @@
       <!-- accommodations  -->
       <section id="accommodations">
         <div class="accommodations_list">
-          <h2>Hébergements à Marseille</h2>
+          <h2 class="accommodations_title">Hébergements à Marseille</h2>
           <div>
             <article class="card">
               <div>
@@ -151,12 +151,12 @@
             </article>
           </div>
 
-          <p>Afficher plus</p>
+          <p id="display-more">Afficher plus</p>
         </div>
 
         <!-- the most popular accommodations -->
         <div class="accommodations_list">
-          <h2>Les plus populaires</h2>
+          <h2 class="accommodations_title">Les plus populaires</h2>
 
           <div>
             <article class="card">
@@ -193,33 +193,33 @@
       <section>
         <h1>Activités à Marseille</h1>
 
-        <div>
+        <div class="activities_list">
           <article class="activities_at_marseille">
             <div>
               <img src="" />
             </div>
-            <h3>Vieux-Port</h3>
+            <h3 class="activities_title">Vieux-Port</h3>
           </article>
 
           <article class="activities_at_marseille">
             <div>
               <img src="" />
             </div>
-            <h3>Fort de Pomègues</h3>
+            <h3 class="activities_title">Fort de Pomègues</h3>
           </article>
 
           <article class="activities_at_marseille">
             <div>
               <img src="" />
             </div>
-            <h3>Parc national des Calanques</h3>
+            <h3 class="activities_title">Parc national des Calanques</h3>
           </article>
 
           <article class="activities_at_marseille">
             <div>
               <img src="" />
             </div>
-            <h3>Notre-Dame-de-la-Garde</h3>
+            <h3 class="activities_title">Notre-Dame-de-la-Garde</h3>
           </article>
         </div>
       </section>
@@ -227,25 +227,31 @@
 
     <!-- footer  -->
     <footer>
-      <nav>
-        <article class="footer_menu_blocks">
+      <nav id="footer-cards-container">
+        <div class="footer_card">
           <h3>À propos</h3>
-          <p>Fonctionnement du site</p>
-          <p>Conditions générales</p>
-          <p>Données et confidentialité</p>
-        </article>
+          <ul class="footer_list">
+            <li class="footer_list_links">Fonctionnement du site</li>
+            <li class="footer_list_links">Conditions générales</li>
+            <li class="footer_list_links">Données et confidentialité</li>
+          </ul>
+        </div>
 
-        <article class="footer_menu_blocks">
-          <h3>Nos hébergements</h3>
-          <p>Charte qualité</p>
-          <p>Proposer votre hôtel</p>
-        </article>
+        <div class="footer_card">
+          <h3>No hébergements</h3>
+          <ul class="footer_list">
+            <li class="footer_list_links">Charte qualité</li>
+            <li class="footer_list_links">Proposer votre hôtel</li>
+          </ul>
+        </div>
 
-        <article class="footer_menu_blocks">
+        <div class="footer_card">
           <h3>Assistance</h3>
-          <p>Centre d'aide</p>
-          <p>Nous contacter</p>
-        </article>
+          <ul class="footer_list">
+            <li class="footer_list_links">Centre d'aide</li>
+            <li class="footer_list_links">Nous contacter</li>
+          </ul>
+        </div>
       </nav>
     </footer>
   </body>

@@ -11,7 +11,7 @@ header {
   padding: 0 20px;
 }
 
-.logo-box {
+.logo_box {
   display: flex;
 }
 
@@ -52,7 +52,7 @@ nav a:hover {
   color: #0065fc;
 }
 
-#menu_title1 {
+#menu-title {
   margin-left: 50px;
 }
 
@@ -68,7 +68,6 @@ h2 {
 }
 
 h3 {
-  margin-left: 20px;
   font-size: 14px;
 }
 
@@ -83,7 +82,7 @@ p {
 
 #search-pin {
   padding: 15px;
-  background-color: #d6d6d6;
+  background-color: #f7f7f7;
   border-radius: 15px 0px 0px 15px;
 }
 
@@ -98,7 +97,7 @@ p {
 }
 
 #search-input {
-  border: 1px solid #d6d6d6;
+  border: 1px solid #f7f7f7;
   font-size: 15px;
 }
 
@@ -108,15 +107,20 @@ p {
   /* justify-content: flex-start; */
   align-items: center;
   margin: 2rem 0rem 2rem 0rem;
+  padding: 2rem;
 }
 
-.filtering-button {
-  padding: 1rem 1.6rem 1rem 1.2rem;
+#filters-title {
+  margin-left: -8px;
+}
+
+.filtering_button {
+  padding: 1rem 1.6rem 1rem 1.6rem;
   border-radius: 40px;
   background-color: #ffffff;
   font-size: 14px;
   font-weight: bold;
-  border: 2px solid #d6d6d6;
+  border: 2px solid #f7f7f7;
   margin: 0rem 3rem 0rem 3rem;
 }
 
@@ -130,9 +134,20 @@ p {
   justify-content: space-around;
 }
 
+#display-more {
+  margin-left: 3rem;
+  margin-bottom: 3rem;
+  font-weight: bold;
+}
+
 .accommodations_list {
-  background-color: #d6d6d6;
+  background-color: #f7f7f7;
   border-radius: 20px;
+}
+
+.accommodations_title {
+  margin-left: 3rem;
+  margin-top: 3rem;
 }
 
 .card {
@@ -140,13 +155,46 @@ p {
   border-radius: 20px;
   border: 4px solid #ffffff;
   background-color: #ffffff;
-  box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.2);
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+  margin: 3rem;
+}
+
+.activities_list {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
 }
 
 .activities_at_marseille {
   display: flex;
+  border-radius: 20px;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
 }
 
-.footer_menu_blocks {
+.activities_title {
+  padding: 1rem;
+}
+
+#footer-cards-container {
   display: flex;
+  flex-direction: row;
+  background-color: #f7f7f7;
+  margin: 3rem 20px 3rem 20px;
+  justify-content: space-around;
+}
+
+.footer_list {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_card {
+  display: flex;
+  flex-direction: column;
+  padding: 2.5rem;
+}
+
+.footer_list_links {
+  display: flex;
+  padding: 0.5rem 0.5rem 0.5rem 0rem;
 }

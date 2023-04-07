@@ -2,6 +2,10 @@
   font-family: "Raleway";
 }
 
+/* HEADER  */
+/* HEADER  */
+/* HEADER  */
+
 header {
   display: flex;
   justify-content: space-between;
@@ -10,6 +14,10 @@ header {
   background-color: #ffffff;
   padding: 0 20px;
 }
+
+/* LOGO  */
+/* LOGO  */
+/* LOGO  */
 
 .logo_box {
   display: flex;
@@ -21,6 +29,10 @@ header {
   background: #ffffff;
   margin-left: 1rem;
 }
+
+/* TOP MENU  */
+/* TOP MENU  */
+/* TOP MENU  */
 
 .menu {
   width: 381px;
@@ -55,6 +67,9 @@ nav a:hover {
 }
 
 /* MAIN */
+/* MAIN */
+/* MAIN */
+
 h1 {
   margin-left: 2rem;
   font-size: 22px;
@@ -72,6 +87,10 @@ h3 {
 p {
   margin-left: 2rem;
 }
+
+/* SEARCH-BOX */
+/* SEARCH-BOX */
+/* SEARCH-BOX */
 
 #search-box {
   display: flex;
@@ -98,6 +117,10 @@ p {
   border: 1px solid #d3d3d3;
   font-size: 15px;
 }
+
+/* FILTERS */
+/* FILTERS */
+/* FILTERS */
 
 #filters {
   display: flex;
@@ -136,6 +159,10 @@ p {
   padding-right: 0.8rem;
 }
 
+/* 500 ACCOMMODATIONS */
+/* 500 ACCOMMODATIONS */
+/* 500 ACCOMMODATIONS */
+
 #available-accommodations {
   display: flex;
   margin-left: 2rem;
@@ -149,6 +176,14 @@ p {
   margin-bottom: 3.5rem;
 }
 
+/* .popular_accommodations_list {
+  
+} */
+
+/* ACCOMMODATIONS */
+/* ACCOMMODATIONS */
+/* ACCOMMODATIONS */
+
 #accommodations {
   display: flex;
   justify-content: space-between;
@@ -161,7 +196,7 @@ p {
   font-weight: bold;
 }
 
-.accommodations_list {
+#accommodations-list {
   background-color: #f7f7f7;
   border-radius: 20px;
 }
@@ -178,7 +213,7 @@ p {
 
 .card {
   display: flex;
-  border-radius: 1.5rem 1.5rem 0 0;
+  border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
   border: 4px solid #ffffff;
   background-color: #ffffff;
   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
@@ -191,26 +226,55 @@ p {
   background-color: #f7f7f7;
 }
 
+.card h3 {
+  font-size: 1rem !important;
+}
+
 .accommodations_images_container img {
   border-radius: 1.5rem 1.5rem 0 0;
   width: 100%;
+  height: 12rem ;object-fit: cover;
+
 }
 
+/* POPULAR ACCOMMODATIONS */
+/* POPULAR ACCOMMODATIONS */
+/* POPULAR ACCOMMODATIONS */
+
+#popular-accommodations-list {
+  background-color: #f7f7f7;
+  border-radius: 20px;
+}
+
+/* ACTIVITIES */
+/* ACTIVITIES */
+/* ACTIVITIES */
+
 .activities_list {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
+  display: grid;
+  gap: 15px;
+  align-items: stretch;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 }
 
 .activities_at_marseille {
-  display: flex;
   border-radius: 20px;
   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
 }
 
-.activities_title {
-  padding: 1rem;
+.activities_list_container img {
+  border-radius: 1.5rem 1.5rem 0 0;
+  width: 100%;
+  object-fit: cover;
 }
+
+.activities_title {
+  padding: 0.5rem;
+}
+
+/* FOOTER */
+/* FOOTER */
+/* FOOTER */
 
 #footer-cards-container {
   display: flex;

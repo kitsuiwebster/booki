@@ -190,6 +190,18 @@ p {
   margin-left: 2rem;
 }
 
+#accommodations #accommodations-list {
+}
+
+#accommodations #popular-accommodations-list {
+  margin-right: 2rem;
+}
+
+/* MARSEILLE ACCOMMODATIONS */
+/* MARSEILLE ACCOMMODATIONS */
+/* MARSEILLE ACCOMMODATIONS */
+
+
 #display-more {
   margin-left: 3rem;
   margin-bottom: 3rem;
@@ -227,14 +239,21 @@ p {
 }
 
 .card h3 {
-  font-size: 1rem !important;
+  margin: 0.4rem 0.4rem 0.4rem 1rem;
+}
+
+.card p {
+  margin: 0.4rem 0.4rem 0.4rem 1rem;
+}
+
+.card .card_rating {
+  margin: 0.4rem 0.4rem 0.4rem 1rem;
 }
 
 .accommodations_images_container img {
   border-radius: 1.5rem 1.5rem 0 0;
   width: 100%;
   height: 12rem ;object-fit: cover;
-
 }
 
 /* POPULAR ACCOMMODATIONS */
@@ -246,6 +265,26 @@ p {
   border-radius: 20px;
 }
 
+.popular_card {
+  display: flex;
+  border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
+  border: 4px solid #ffffff;
+  background-color: #ffffff;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+  margin: 3rem;
+  flex-direction: row;
+  height: 20%;
+}
+
+.card_description {
+  display: flex;
+  flex-direction: column;
+}
+
+.popular_accommodations_images_container img {
+  border-radius: 1.5rem 0 0 1.5rem;
+  width: 100%;
+}
 /* ACTIVITIES */
 /* ACTIVITIES */
 /* ACTIVITIES */

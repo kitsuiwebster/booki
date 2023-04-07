@@ -111,6 +111,7 @@ p {
   color: white;
   border: 1px solid #0065fc;
   border-radius: 0px 15px 15px 0px;
+  cursor: pointer;
 }
 
 #search-input {
@@ -145,6 +146,7 @@ p {
   margin: 0rem 3rem 0rem 3rem;
   display: flex;
   flex-direction: row;
+  cursor: pointer;
 }
 
 .filtering_button:hover {

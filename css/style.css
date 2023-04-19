@@ -235,10 +235,6 @@ p {
   width: 20rem;
 }
 
-.card:hover {
-  background-color: #F2F2F2;
-}
-
 .card h3 {
   margin: 0.4rem 0.4rem 0.4rem 1rem;
 }
@@ -295,10 +291,6 @@ p {
   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
   flex-direction: row;
   width: 26rem;
-}
-
-.popular_card:hover {
-  background-color: #F2F2F2;
 }
 
 .card_description {
@@ -421,7 +413,80 @@ p {
   }
 
   #accommodations-list {
+    background-color: #ffffff;  
+    margin-left: 0;
+  }
+
+  .accommodations_title {
+    margin-left: 1rem;
+  }
+
+/* POPULAR ACCOMMODATIONS */
+
+  #popular-accommodations-list {
     border-radius: 0;
     margin-left: 0;
+    width: 100%;
+  }
+
+  .popular_card {
+    width: 20rem;
+    margin: 0 0   1rem 1rem;
+  }
+
+  .popular_card_container {
+    width: 100%;
+  }
+
+  #chart-logo {
+    margin-left: 5rem;
+  }
+
+/* MARSEILLE ACCOMMODATIONS */
+
+  .accommodations_images_container img {
+    height: 7rem;
+  }
+
+  .card {
+    margin-left: 1rem;
+  }
+
+  .card h3 {
+    margin: 0.2rem 0.2rem 0.2rem 1rem;
+  }
+  
+  .card p {
+    margin: 0.2rem 0.2rem 0.2rem 1rem;
+  }
+  
+  .card .card_rating {
+    margin: 0.2rem 0.2rem 0.2rem 1rem;
+  }
+
+  #display-more {
+    font-size: 0;
+  }
+
+/* ACTIVITIES */
+
+  .activities_list {
+    flex-direction: column;
+  }
+
+  .activities_card {
+    width: 19rem;
+    height: 12rem;
+    margin: 2rem;
+  }
+
+  .activities_list_container img {
+    height: 9rem;
+  }
+
+  .activities_title {
+    padding: 0.5rem;
+    margin-left: 1rem;
+    margin-top: 0.3rem;
   }
 }

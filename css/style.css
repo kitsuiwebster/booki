@@ -444,17 +444,14 @@ p {
 
   header {
     flex-direction: column;
+    border-bottom: #0065fc solid 3px;
+    padding-bottom: 2rem !important;
   }
 
   /* MENU */
 
   .menu {
     width: 100%;
-  }
-
-  ul {
-    border-bottom: #0065fc solid 3px;
-    padding-bottom: 2rem !important;
   }
 
   nav li {
@@ -467,7 +464,7 @@ p {
   }
   
   #menu-title {
-    margin-left: 0;
+    margin-left: 2rem;
   }
 
   /* MAIN */
@@ -519,13 +516,14 @@ p {
   }
 
   .popular_card {
-    width: 100%;
+    max-width: 82%;
     margin: 0 0 1rem 1rem;
   }
 
   .popular_card_container {
-    width: 100%;
+    max-width: 100%;
     flex-direction: column;
+    padding: 0 1rem 0 1rem;
   }
 
   #chart-logo {
@@ -558,6 +556,10 @@ p {
     font-size: 0;
   }
 
+  .card_container {
+    max-width: 100%;
+  }
+
   /* ACTIVITIES */
 
   .activities_list {
@@ -566,14 +568,14 @@ p {
   }
 
   .activities_card {
-    width: 100%;
+    max-width: 82%;
     height: 12rem;
     margin: 2rem;
   }
 
   .activities_list_container img {
     height: 9rem;
-    width: 100%;
+    max-width: 100%;
   }
 
   .activities_title {

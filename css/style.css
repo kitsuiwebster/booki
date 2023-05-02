@@ -510,7 +510,7 @@ p {
     padding-bottom: 1.5rem;
   }
 
-  .menu_title :is(:hover, :focus) {
+  nav li:is(:hover, :focus) {
     border-bottom: #0065fc solid 3px;
     padding-bottom: 1.5rem;
   }

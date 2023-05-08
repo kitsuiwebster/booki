@@ -185,10 +185,6 @@ p {
   margin-bottom: 3.5rem;
 }
 
-/* .popular_accommodations_list {
-  
-} */
-
 /* ACCOMMODATIONS */
 /* ACCOMMODATIONS */
 /* ACCOMMODATIONS */
@@ -208,9 +204,10 @@ p {
 /* MARSEILLE ACCOMMODATIONS */
 
 #display-more {
-  margin-left: 4rem;
+  margin-left: 3.5rem;
   font-weight: bold;
   font-size: 18px;
+  margin-top: 4rem;
 }
 
 #accommodations-list {
@@ -219,7 +216,7 @@ p {
 }
 
 .accommodations_title {
-  margin-left: 4rem;
+  margin-left: 3.5rem;
   margin-top: 3rem;
 }
 
@@ -330,6 +327,11 @@ p {
 /* ACTIVITIES */
 /* ACTIVITIES */
 
+#activities-title {
+  margin-bottom: 0;
+  margin-top: 2rem;
+}
+
 .activities_list {
   display: flex;
   flex-direction: row;
@@ -367,7 +369,7 @@ p {
   display: flex;
   flex-direction: row;
   background-color: #f2f2f2;
-  margin: 3rem 20px 3rem 20px;
+  margin: 3rem 2rem 0 2rem;
   justify-content: space-around;
 }
 
@@ -385,6 +387,7 @@ p {
 .footer_list_links {
   display: flex;
   padding: 0.5rem 0.5rem 0.5rem 0rem;
+  cursor: pointer;
 }
 
 /*                           */
@@ -484,7 +487,7 @@ p {
   /* BODY */
 
   body {
-    margin: 1rem 0 1rem 0;
+    margin: 1rem 0 0 0;
   }
 
   /* LOGO  */
@@ -571,6 +574,10 @@ p {
     margin-top: 1rem;
   }
 
+  .filtering_button_title {
+    font-size: 11px;
+  }
+
   /* ACCOMMODATIONS */
 
   #accommodations {
@@ -643,6 +650,10 @@ p {
     max-width: 100%;
   }
 
+  .accommodations_title {
+    margin-left: 2rem;
+  }
+
   /* ACTIVITIES */
 
   .activities_list {
@@ -667,14 +678,24 @@ p {
     margin-top: 0.3rem;
   }
 
+  #activities-title {
+    margin-left: 3.5rem;
+  }
+
   /* FOOTER */
 
   #footer-cards-container {
     flex-direction: column;
-    margin: 3rem 20px 3rem 20px;
+    margin: 2rem 0 0 0;
+    padding-top: 2rem;
   }
 
   .footer_card {
-    padding: 1.5rem;
+    padding: 0 0 2rem 3.5rem;
+  }
+
+  .footer_list_links:hover {
+    border-bottom: #f2f2f2 solid 3px;
+    padding-bottom: 0.5rem;
   }
 }

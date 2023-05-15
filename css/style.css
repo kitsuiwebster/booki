@@ -2,6 +2,10 @@
   font-family: "Raleway";
 }
 
+body {
+  margin-right: 0;
+}
+
 /* HEADER  */
 /* HEADER  */
 /* HEADER  */
@@ -13,6 +17,7 @@ header {
   height: 70px;
   background-color: #ffffff;
   padding: 0 20px;
+  padding-right: 0;
 }
 
 /* LOGO  */
@@ -43,14 +48,20 @@ header {
 
 nav ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
 nav li {
-  margin-right: 50px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.menu_title:is(:hover, :focus) {
+  border-top: #0065fc solid 3px;
+  padding-top: 2rem;
 }
 
 nav a {
@@ -60,12 +71,6 @@ nav a {
 
 nav a:is(:hover, :focus) {
   color: #0065fc;
-  border-top: #0065fc solid 3px;
-  padding-top: 2rem;
-}
-
-#menu-title {
-  margin-left: 50px;
 }
 
 /* MAIN */
@@ -119,6 +124,10 @@ p {
 #search-input {
   border: 1px solid #d3d3d3;
   font-size: 15px;
+}
+
+#magnifying-glass-logo {
+  display: none;
 }
 
 /* FILTERS */
@@ -399,11 +408,19 @@ p {
 /* LAPTOP */
 
 @media screen and (max-width: 1440px) {
+
+  /* FILTERS */
+
+  .filtering_button {
+    margin: 0 1rem 0 1rem;
+  }
+
+
   /* ACCOMMODATIONS */
 
   #accommodations {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin-left: 0;
   }
 
@@ -424,7 +441,7 @@ p {
   }
 
   .popular_card_container {
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
   }
 
@@ -449,6 +466,29 @@ p {
 /* TABLET */
 
 @media screen and (max-width: 1024px) {
+
+  /* ACCOMMODATIONS */
+
+  #accommodations {
+    flex-direction: column;
+  }
+
+  /* FILTERS */
+
+  #filters {
+    flex-direction: column;
+  }
+
+  #filters-list {
+    flex-wrap: wrap;
+    padding-left: 0;
+    padding-top: 0;
+  }
+
+  .filtering_button {
+    margin-top: 1rem;
+
+  }
 
   /* POPULAR */
 
@@ -543,13 +583,17 @@ p {
   #search-box {
     width: 82%;
   }
-  
-  #search-button {
-    font-size: 0;
+
+  #search {
+    display: none;
   }
   
   #search-input {
     width: 100%;
+  }
+
+  #magnifying-glass-logo {
+    display: block;
   }
 
   /* FILTERS */

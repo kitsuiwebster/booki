@@ -427,7 +427,7 @@ p {
   /* MARSEILLE ACCOMMODATIONS */
 
   #accommodations-list {
-    margin: 0 0 3rem 3rem;
+    margin: 0 2rem 3rem 3rem;
   }
 
   .card_container {
@@ -688,6 +688,7 @@ p {
   .card {
     margin-left: 2rem;
     margin-right: 2rem;
+    width: 20rem;
   }
 
   .card h3 {

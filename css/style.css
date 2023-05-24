@@ -541,6 +541,18 @@ p {
 
 }
 
+
+
+@media screen and (max-width: 850px) {
+
+  /* POPULAR */
+
+  .popular_card {
+    width: 12rem;
+    height: 15rem;
+  }
+}
+
 /* MOBILE */
 /* MOBILE */
 /* MOBILE */
@@ -669,6 +681,7 @@ p {
   .popular_card {
     width: 82%;
     margin: 0 2rem 1rem 2rem;
+    height: 9rem;
   }
 
   .popular_card_container {
